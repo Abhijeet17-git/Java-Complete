@@ -13,13 +13,13 @@ public class Conditional {
         String result = (a > 10) ? "a is greater than 10 " : "a is less than 10";
         switch (a) {
             case 10:
-                // code block
+                
                 break;
             case 11:
-                // code block
+                
                 break;
             default:
-                // code block
+                
         }
     }
 }
