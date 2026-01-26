@@ -19,6 +19,7 @@ interface Test{
        
     }
 }
+
 class Test1 implements Test{
     @Override
     public int Age(){
