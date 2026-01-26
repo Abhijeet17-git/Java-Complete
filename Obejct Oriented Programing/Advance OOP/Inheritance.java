@@ -31,7 +31,7 @@ class Subclass extends Superclass{
     }
 
 }
-public class Inheritance {
+public class Inheritance extends Object {
     public static void main(String[] args) {
         Subclass S = new Subclass();
         System.out.println(S.x); // we may access the value of the supercalss from the subclass 

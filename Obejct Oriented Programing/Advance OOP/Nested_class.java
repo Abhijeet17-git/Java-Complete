@@ -1,6 +1,6 @@
 class Human{
     class Male{
-
+        
     }
     class Female{
 
