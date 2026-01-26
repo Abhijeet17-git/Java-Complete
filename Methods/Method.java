@@ -1,4 +1,4 @@
-
+package Methods;
 // A method is a block of code which only runs when it is called.
 // static datatype_to_return Function_name(value to be passed){
         

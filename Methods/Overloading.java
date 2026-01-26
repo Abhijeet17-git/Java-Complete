@@ -1,4 +1,4 @@
-// package Methods;
+package Methods;
 
 //With method overloading, multiple methods can have the same name with different parameters:
 // for aciving this we need to have the atleast one of the diffring object in the methods
