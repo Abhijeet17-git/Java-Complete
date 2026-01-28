@@ -1,0 +1,39 @@
+1 . What is the Core?
+A core is an individual processing unit inside a CPU that can execute ---> instructions independently.
+----------------------------------------------------------------------------------------------
+2. What is the Program
+---> it is the set of instructions that executed for aciving the perticular goal
+----------------------------------------------------------------------------------------------
+3.what is the process
+---> A core is a hardware execution unit, while a process is a software instance of a running program.
+----------------------------------------------------------------------------------------------
+4.what is the thread?
+---> thread is the subprocess of the process wich work independently of another thread they share resources
+----------------------------------------------------------------------------------------------
+5.what is the multitaksing
+---> multitaksing is the proerty of the os in wich 2-3 process run simulteniously. on singel core the one core 
+switch so fast we think we are doing thing parraly
+----------------------------------------------------------------------------------------------
+6.what is multithreading
+--->multithreading is the process where we have the ability to execute the multipel thread in the same time
+----------------------------------------------------------------------------------------------
+7.Time Slicing?
+---> 
+a.time Slicing mean the cpu devid the CPU in small amount of the interval
+b.functoin of this is the OS Schedulare assing the diffrent precess and thread according to the proeces so they all get the fare share of the cpu
+----------------------------------------------------------------------------------------------
+8.what ist he Context Switching
+---> mean os strore the state and condtion of the stae to get back to after completion of another ttask
+----------------------------------------------------------------------------------------------
+9.Thread Cycel
+-->thread form run and dead this ithe thread Cycel
+----------------------------------------------------------------------------------------------
+10-.Thread States?
+New(just a new thread is form)
+Rubbabel(ready to run wait fot he resorces ,t1.start())
+running(executing )
+Blocked/Waiting(waition for blocked by the process)
+terminated(terminated after completion of the work)
+11.When to use the thread and when to use implemets Rubbabel?
+extend Thread  --  when ther is the no such class wich extending the another class it will csue error like "class Test1 extend Test2 " this will throw the error if we extend Thread 
+at that itme weshould use the Runnabel
