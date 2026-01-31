@@ -12,8 +12,8 @@ import java.util.concurrent.locks.Lock;
 
 class Back {
     private int Bal = 100;
-    private final Lock lock = new Lock();
-
+    private final Lock lock = new ReentrantLock(); //here the lock is the interface so we dont need to have the maek the object of the lock so we use the ReentrantLock() this method for the assing it have the 
+    //when the same thread is again do Lock.lock() if it same thread it again get the lock and if the 10 time it get lock it should 10 time unlock then resources relesed this i th
     public void with(int ammount) {
         try {
 
