@@ -21,6 +21,7 @@ public class Deamon {
         T1.setDaemon(true); //this is the how we start the daemon thread
         T.start();
         T1.start();
+        T.start();
 
     }
 }
