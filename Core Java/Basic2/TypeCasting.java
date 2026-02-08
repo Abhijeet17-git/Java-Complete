@@ -12,7 +12,7 @@ class TypeCasting {
         //Narrowing casting
         long c = 20 ;
         int d = (int) c;
-        char e = 1 ;
+        char e = '1' ;
         int f = (int)e;
         float g = 6.6f;
         int h = (int)g;
